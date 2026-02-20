@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+
+    line-height: 1.6;
+    font-family: Arial, sans-serif;
+}
+
+main {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 50px;
+}
+
+main section {
+    padding: 30px;
+
+    background-color: #eee;
+
+    border-radius: 5px;
+
+    width: 1000px;
+
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main section form {
+    display: flex;
+
+    flex-direction: column;
+}
+
+main section form input {
+    padding: 5px;
+
+    border-radius: 5px;
+
+    width: 300px;
+}
+
+main section form button {
+    margin-top: 10px;
+
+    padding: 5px;
+
+    border-radius: 5px;
+
+    width: 312px;
+
+    background-color: #5560ff;
+}
+
+main section form button:hover {
+    cursor: pointer;
+    background-color: #3240ff;
+}
+
+main section ul {
+    margin-top: 100px;
+
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    list-style-type: none;
+    width: 100%;
+}
+
+main section ul li {
+    width: 90%;
+    background-color: #ddd;
+
+    padding: 10px;
+
+    border-radius: 5px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+main section ul li button{
+    width: 30px;
+    height: 30px;
+
+    border-radius: 5px;
+
+    background-color: #ff6969;
+    color: white;
+}
+
+main section ul li button:hover {
+    cursor: pointer;
+    background-color: #ff5b5b;
+}
